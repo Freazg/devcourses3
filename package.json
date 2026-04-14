@@ -1,0 +1,16 @@
+{
+  "name": "devcourses-lab3",
+  "version": "1.0.0",
+  "description": "REST API з реєстрацією, авторизацією JWT та ролями — ЛР №3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.4",
+    "sequelize": "^6.37.3"
+  }
+}
